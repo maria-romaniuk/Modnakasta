@@ -1,0 +1,26 @@
+.newscols{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 50%;
+
+  &_left{
+    float: left;
+  }
+  &_right{
+   float: right;
+  }
+  &__item{
+
+  }
+  &__link{
+    text-decoration: none;
+    color: black;
+  }
+  &__title{
+    color: black;
+  }
+  &__text{
+    color: #9b9b9e;
+  }
+}

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,SAAS;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAEhB,cAAM;IACJ,KAAK,EAAE,IAAI;EAEb,eAAO;IACN,KAAK,EAAE,KAAK;EAKb,eAAO;IACL,eAAe,EAAE,IAAI",
+"sources": ["newscols.scss"],
 "names": [],
 "file": "newscols.css"
 }

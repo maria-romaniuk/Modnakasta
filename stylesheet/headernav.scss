@@ -1,0 +1,22 @@
+.headernav{
+
+  &__list{
+    margin: 0;
+    list-style: none;
+    font-weight: lighter;
+    padding: 0;
+  }
+  &__item{
+    display: inline-block;
+
+    &_nopadding{
+      padding-left: 0;
+    }
+
+  }
+  &__link{
+    padding: 16px 20px 17px 20px;
+    text-decoration: none;
+    display: block;
+  }
+}

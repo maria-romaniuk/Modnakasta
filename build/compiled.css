@@ -1,3 +1,29 @@
+a {
+  color: white; }
+
+.wrapper {
+  color: white;
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+@media screen and (max-width: 1600px) {
+  .container {
+    margin-left: 9.3%;
+    margin-right: 9.3%; } }
+@media screen and (max-width: 1280px) {
+  .container {
+    margin-left: 3.5%;
+    margin-right: 3.6%; } }
+@media screen and (max-width: 768px) {
+  .container {
+    margin-right: 5.2%;
+    margin-left: 5.2%; } }
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 3.1%;
+    margin-right: 3.1%; } }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -17,6 +43,32 @@ html {
  */
 body {
   margin: 0; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -355,5 +407,272 @@ table {
 td,
 th {
   padding: 0; }
+
+.icon {
+  color: white;
+  display: inline-block; }
+  .icon_phone {
+    background: url("../img/phonenumber.png") no-repeat;
+    width: 23px;
+    height: 23px; }
+  .icon_modkast {
+    background: url("../img/modnakasta.png") no-repeat;
+    width: 21px;
+    height: 21px; }
+  .icon_help {
+    background: url("../img/help.png") no-repeat;
+    width: 22px;
+    height: 22px; }
+  .icon_swallowdown {
+    background: url("../img/swallowdown.png") no-repeat;
+    width: 6px;
+    height: 4px; }
+  .icon_profile {
+    background: url("../img/profile.png") no-repeat;
+    width: 22px;
+    height: 22px; }
+  .icon_basketsticker {
+    background: url("../img/basket.png") no-repeat;
+    width: 26px;
+    height: 24px; }
+  .icon_clock {
+    background: url("../img/clock.svg") no-repeat;
+    width: 14px;
+    height: 14px;
+    vertical-align: sub; }
+
+.advt a {
+  color: black; }
+
+.advt__small {
+  width: 32.3%; }
+  .advt__small_sizeright {
+    float: right; }
+  .advt__small_sizeleft {
+    float: left; }
+.advt__l {
+  display: block;
+  max-width: 66.1%;
+  position: relative;
+  margin: 15px 15px 0 0; }
+  .advt__l_left {
+    float: left; }
+  .advt__l_right {
+    float: right; }
+.advt__m {
+  display: block;
+  max-width: 48.7%;
+  position: relative;
+  margin: 15px 15px 0 0; }
+  .advt__m_left {
+    float: left; }
+  .advt__m_right {
+    float: right; }
+.advt__s {
+  display: inline-block;
+  max-width: 32.3%;
+  position: relative;
+  margin: 15px 15px 0 0;
+  font-size: 1.164em;
+  line-height: 29px; }
+  .advt__s_size100 {
+    max-width: 100%; }
+.advt_lastinline {
+  margin-right: 0; }
+.advt__img {
+  width: 100%; }
+.advt__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  width: 100%; }
+  .advt__info_l {
+    height: 44px;
+    bottom: -7px; }
+  .advt__info_m {
+    height: 43.66px; }
+  .advt__info_s {
+    height: 30px; }
+.advt__infoleft {
+  float: left; }
+.advt__inforight {
+  float: right; }
+.advt__remember {
+  display: inline-block; }
+
+.content {
+  margin: 20px 0 35px; }
+  .content__info {
+    margin-top: 30px; }
+
+footer {
+  background: #1e2124; }
+
+.footer__logo {
+  float: left; }
+.footer__nav {
+  float: left; }
+
+.header {
+  height: 110px; }
+  .header__nav {
+    background: #2d2d2d;
+    font-size: 1.4em; }
+
+.headerline {
+  height: 60px; }
+  .headerline__logo {
+    float: left;
+    margin: 10px 42px 13px 0; }
+  .headerline__logolink {
+    text-decoration: none;
+    display: block; }
+  .headerline__marker {
+    float: left;
+    font-size: 1.8em; }
+  .headerline__marketlist {
+    margin: 18px 0 0 0;
+    padding: 0; }
+  .headerline__marketitem {
+    display: inline-block;
+    padding: 9px 24px 11px 25px;
+    font-weight: lighter; }
+    .headerline__marketitem_active {
+      padding: 9px 29px 11px 30px;
+      font-weight: normal; }
+  .headerline__marketitemlink {
+    text-decoration: none; }
+  .headerline__info {
+    float: right;
+    font-size: 1.3em;
+    font-weight: lighter; }
+
+.headernav__list {
+  margin: 0;
+  list-style: none;
+  font-weight: lighter;
+  padding: 0; }
+.headernav__item {
+  display: inline-block; }
+  .headernav__item_nopadding {
+    padding-left: 0; }
+.headernav__link {
+  padding: 16px 20px 17px 20px;
+  text-decoration: none;
+  display: block; }
+
+.social {
+  float: right; }
+
+.banner__link {
+  display: block; }
+.banner__img {
+  width: 100%; }
+
+.advantage__block {
+  max-width: 32.3%;
+  display: inline-block; }
+.advantage__bcg {
+  display: block; }
+  .advantage__bcg_price {
+    background: url("../img/icon_sale%20(1).svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+  .advantage__bcg_quality {
+    background: url("../img/icon_guarantees.svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+  .advantage__bcg_delivery {
+    background: url("../img/icon_delivery.svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+  .advantage__bcg_payment {
+    background: url("../img/icon_payments.svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+  .advantage__bcg_return {
+    background: url("../img/icon_money_back.svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+  .advantage__bcg_support {
+    background: url("../img/icon_support.svg") left no-repeat;
+    width: 36px;
+    height: 36px; }
+
+.news__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+.news__item {
+  display: inline-block;
+  width: 32.3%; }
+.news__imgzonelink {
+  display: block; }
+
+.daynews {
+  font-size: 1.164em; }
+  .daynews__toplist {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -4px; }
+  .daynews__topitem {
+    display: inline-block;
+    width: 50%;
+    background: #26282d;
+    line-height: 42px;
+    letter-spacing: 0;
+    text-align: center; }
+  .daynews__toplink {
+    display: block;
+    text-decoration: none; }
+  .daynews__info {
+    background: #ffffff;
+    padding: 30px 100px 40px 34px; }
+  .daynews__title {
+    color: #d52581; }
+  .daynews__scrollleft {
+    float: left; }
+  .daynews__scrollright {
+    float: right; }
+
+.newscols {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 50%; }
+  .newscols_left {
+    float: left; }
+  .newscols_right {
+    float: right; }
+  .newscols__link {
+    text-decoration: none;
+    color: black; }
+  .newscols__title {
+    color: black; }
+  .newscols__text {
+    color: #9b9b9e; }
+
+.trade {
+  white-space: nowrap; }
+  .trade__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block; }
+  .trade__item {
+    display: inline-block;
+    padding: 18px 25px 16px 0; }
+  .trade__link {
+    text-decoration: none; }
+  .trade__basket {
+    display: inline-block; }
+
+.footcols__col {
+  display: inline-table; }
+.footcols__list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
 
 /*# sourceMappingURL=compiled.css.map */

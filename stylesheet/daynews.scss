@@ -1,0 +1,46 @@
+.daynews{
+  font-size: 1.164em;
+  &__top{
+
+  }
+  &__toplist{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -4px;
+  }
+  &__topitem{
+    display: inline-block;
+    width: 50%;
+    background: #26282d;
+    line-height: 42px;
+    letter-spacing: 0;
+    text-align: center;
+
+  }
+  &__toplink{
+    display: block;
+    text-decoration: none;
+  }
+  &__info{
+    background: #ffffff;
+    padding: 30px 100px 40px 34px;
+  }
+  &__title{
+    color: #d52581;
+  }
+  &__titletime{
+
+  }
+  &__scroll{
+
+  }
+  &__scrollleft{
+    float: left;
+  }
+  &__scrollright{
+    float: right;
+  }
+  &__notice{
+
+  }
+}

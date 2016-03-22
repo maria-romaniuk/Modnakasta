@@ -1,0 +1,37 @@
+a{
+  color: white;
+}
+
+.wrapper{
+  color: white;
+
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1600px) {
+  .container{
+    margin-left: 9.3%;
+    margin-right: 9.3%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container{
+    margin-left: 3.5%;
+    margin-right: 3.6%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container{
+    margin-right: 5.2%;
+    margin-left: 5.2%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container{
+    margin-left: 3.1%;
+    margin-right: 3.1%;
+  }
+}

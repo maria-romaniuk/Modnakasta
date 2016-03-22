@@ -1,0 +1,27 @@
+.trade{
+  white-space: nowrap;
+  &__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  &__item{
+    display: inline-block;
+    padding: 18px 25px 16px 0;
+  }
+  &__text{
+
+  }
+  &__link{
+    text-decoration: none;
+  }
+  &__basket{
+    display: inline-block;
+
+  }
+  &__basketlink{
+
+  }
+
+}

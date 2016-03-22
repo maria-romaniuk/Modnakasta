@@ -1,0 +1,52 @@
+.advantage{
+
+
+  &__h1{
+
+  }
+  &__block{
+    max-width: 32.3%;
+    display: inline-block;
+  }
+  &__bcg{
+    display: block;
+
+    &_price{
+      background: url("../img/icon_sale%20(1).svg") left no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    &_quality{
+      background: url("../img/icon_guarantees.svg")  left no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    &_delivery{
+      background: url("../img/icon_delivery.svg")  left no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    &_payment{
+      background: url("../img/icon_payments.svg")  left no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    &_return{
+      background: url("../img/icon_money_back.svg") left no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    &_support{
+      background: url("../img/icon_support.svg") left no-repeat;
+      width: 36px;
+      height: 36px;
+
+    }
+  }
+  &__title{
+
+  }
+  &__text{
+
+  }
+}

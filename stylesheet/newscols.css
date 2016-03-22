@@ -1,3 +1,12 @@
-
+.newscols {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .newscols_left {
+    float: left; }
+  .newscols_right {
+    float: right; }
+  .newscols__link {
+    text-decoration: none; }
 
 /*# sourceMappingURL=newscols.css.map */

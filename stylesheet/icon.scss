@@ -1,0 +1,53 @@
+.icon{
+  color: white;
+  display: inline-block;
+
+    &_phone{
+      background: url("../img/phonenumber.png") no-repeat;
+      width: 23px;
+      height: 23px;
+    }
+    &_modkast{
+      background: url("../img/modnakasta.png") no-repeat;
+      width: 21px;
+      height: 21px;
+    }
+    &_help{
+      background: url("../img/help.png") no-repeat;
+      width: 22px;
+      height: 22px;
+    }
+    &_swallowdown{
+      background: url("../img/swallowdown.png") no-repeat;
+      width: 6px;
+      height: 4px;
+    }
+    &_profile{
+      background: url("../img/profile.png") no-repeat;
+      width: 22px;
+      height: 22px;
+    }
+    &_basketsticker{
+      background: url("../img/basket.png") no-repeat;
+      width: 26px;
+      height: 24px;
+    }
+    &_clock{
+      background: url("../img/clock.svg") no-repeat;
+      width: 14px;
+      height: 14px;
+      vertical-align: sub;
+    }
+    &_newpost{
+
+    }
+    &_wayforpay{
+
+    }
+    &_cupbrd{
+
+    }
+    &_shop{
+
+    }
+}
