@@ -6,21 +6,30 @@
 
   &_left{
     float: left;
+
   }
   &_right{
    float: right;
+
   }
   &__item{
-
+    height: 65px;
   }
   &__link{
     text-decoration: none;
     color: black;
+    display: block;
   }
   &__title{
     color: black;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    letter-spacing: -.04em;
   }
   &__text{
     color: #9b9b9e;
+    font-weight: 200;
+    letter-spacing: -.04em;
+    width: 76%;
   }
 }

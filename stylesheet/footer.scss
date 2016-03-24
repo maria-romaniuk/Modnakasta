@@ -6,12 +6,20 @@ footer{
 
   &__logo{
     float: left;
+    margin-top: 25px;
   }
   &__logolink{
-
+    display: block;
   }
   &__logocopiright{
 
+  }
+  &__logocopirighttext{
+    display: block;
+  }
+  &__logocopirightprot{
+    clear: left;
+    display: block;
   }
   &__nav{
     float: left;

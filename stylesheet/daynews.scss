@@ -27,18 +27,28 @@
   }
   &__title{
     color: #d52581;
+    font-size: 1.4em;
+    letter-spacing: -0.04em;
+    font-weight: 300;
+    margin-bottom: 30px;
+
   }
   &__titletime{
-
+    font-size: 11px;
+    color: white;
+    background: #d52581;
+    padding: 2px 6px;
   }
   &__scroll{
 
   }
   &__scrollleft{
     float: left;
+    width: 45%;
   }
   &__scrollright{
     float: right;
+    width: 45%;
   }
   &__notice{
 

@@ -42,7 +42,7 @@
   }
   &__m{
     display: block;
-    max-width: 48.7%;
+    max-width: 49.2%;
     position: relative;
     margin: 15px 15px 0 0;
 
@@ -63,11 +63,9 @@
 
     &_size100{
       max-width: 100%;
+      margin-right: 0;
     }
 
-  }
-  &_lastinline{
-    margin-right: 0;
   }
   &__img{
     width: 100%;
@@ -82,7 +80,7 @@
 
     &_l{
       height: 44px;
-      bottom: -7px;
+      bottom: -23px;
     }
     &_m{
       height: 43.66px;
@@ -108,6 +106,11 @@
   }
   &__remember{
     display: inline-block;
+    width: 32.3%;
+    margin-right: 15px;
+  }
 
+  &_lastinline{
+    margin-right: 0;
   }
 }

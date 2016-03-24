@@ -426,7 +426,8 @@ th {
   .icon_swallowdown {
     background: url("../img/swallowdown.png") no-repeat;
     width: 6px;
-    height: 4px; }
+    height: 4px;
+    vertical-align: text-top; }
   .icon_profile {
     background: url("../img/profile.png") no-repeat;
     width: 22px;
@@ -461,7 +462,7 @@ th {
     float: right; }
 .advt__m {
   display: block;
-  max-width: 48.7%;
+  max-width: 49.2%;
   position: relative;
   margin: 15px 15px 0 0; }
   .advt__m_left {
@@ -476,9 +477,8 @@ th {
   font-size: 1.164em;
   line-height: 29px; }
   .advt__s_size100 {
-    max-width: 100%; }
-.advt_lastinline {
-  margin-right: 0; }
+    max-width: 100%;
+    margin-right: 0; }
 .advt__img {
   width: 100%; }
 .advt__info {
@@ -489,7 +489,7 @@ th {
   width: 100%; }
   .advt__info_l {
     height: 44px;
-    bottom: -7px; }
+    bottom: -23px; }
   .advt__info_m {
     height: 43.66px; }
   .advt__info_s {
@@ -499,10 +499,16 @@ th {
 .advt__inforight {
   float: right; }
 .advt__remember {
-  display: inline-block; }
+  display: inline-block;
+  width: 32.3%;
+  margin-right: 15px; }
+.advt_lastinline {
+  margin-right: 0; }
 
 .content {
   margin: 20px 0 35px; }
+  .content__postgroupmiddle {
+    margin: 67px 0 67px; }
   .content__info {
     margin-top: 30px; }
 
@@ -510,7 +516,15 @@ footer {
   background: #1e2124; }
 
 .footer__logo {
-  float: left; }
+  float: left;
+  margin-top: 25px; }
+.footer__logolink {
+  display: block; }
+.footer__logocopirighttext {
+  display: block; }
+.footer__logocopirightprot {
+  clear: left;
+  display: block; }
 .footer__nav {
   float: left; }
 
@@ -577,27 +591,27 @@ footer {
   display: block; }
   .advantage__bcg_price {
     background: url("../img/icon_sale%20(1).svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
   .advantage__bcg_quality {
     background: url("../img/icon_guarantees.svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
   .advantage__bcg_delivery {
     background: url("../img/icon_delivery.svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
   .advantage__bcg_payment {
     background: url("../img/icon_payments.svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
   .advantage__bcg_return {
     background: url("../img/icon_money_back.svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
   .advantage__bcg_support {
     background: url("../img/icon_support.svg") left no-repeat;
-    width: 36px;
+    width: auto;
     height: 36px; }
 
 .news__list {
@@ -606,7 +620,8 @@ footer {
   list-style: none; }
 .news__item {
   display: inline-block;
-  width: 32.3%; }
+  width: 32.3%;
+  vertical-align: top; }
 .news__imgzonelink {
   display: block; }
 
@@ -630,11 +645,22 @@ footer {
     background: #ffffff;
     padding: 30px 100px 40px 34px; }
   .daynews__title {
-    color: #d52581; }
+    color: #d52581;
+    font-size: 1.4em;
+    letter-spacing: -0.04em;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  .daynews__titletime {
+    font-size: 11px;
+    color: white;
+    background: #d52581;
+    padding: 2px 6px; }
   .daynews__scrollleft {
-    float: left; }
+    float: left;
+    width: 45%; }
   .daynews__scrollright {
-    float: right; }
+    float: right;
+    width: 45%; }
 
 .newscols {
   margin: 0;
@@ -645,13 +671,22 @@ footer {
     float: left; }
   .newscols_right {
     float: right; }
+  .newscols__item {
+    height: 65px; }
   .newscols__link {
     text-decoration: none;
-    color: black; }
+    color: black;
+    display: block; }
   .newscols__title {
-    color: black; }
+    color: black;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    letter-spacing: -.04em; }
   .newscols__text {
-    color: #9b9b9e; }
+    color: #9b9b9e;
+    font-weight: 200;
+    letter-spacing: -.04em;
+    width: 76%; }
 
 .trade {
   white-space: nowrap; }
@@ -663,8 +698,11 @@ footer {
   .trade__item {
     display: inline-block;
     padding: 18px 25px 16px 0; }
+  .trade__text {
+    vertical-align: super; }
   .trade__link {
-    text-decoration: none; }
+    text-decoration: none;
+    display: block; }
   .trade__basket {
     display: inline-block; }
 

@@ -11,10 +11,11 @@
     padding: 18px 25px 16px 0;
   }
   &__text{
-
+    vertical-align: super;
   }
   &__link{
     text-decoration: none;
+    display: block;
   }
   &__basket{
     display: inline-block;
