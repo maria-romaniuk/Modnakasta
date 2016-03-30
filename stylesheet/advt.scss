@@ -10,7 +10,6 @@
   &__small{
     width: 32.3%;
     &_sizeright{
-
       float: right;
     }
     &_sizeleft{
@@ -24,7 +23,7 @@
 
   &__l{
     display: block;
-    width: 66.1%;
+    width: 66.2%;
     position: relative;
     margin: 15px 15px 0 0;
     color: black;
@@ -55,7 +54,6 @@
     width: 32.3%;
     position: relative;
     margin: 15px 15px 0 0;
-    line-height: 28px;
     color: black;
     &_size100{
       width: 100%;
@@ -76,7 +74,7 @@
     box-sizing: border-box;
     &_l{
       height: 44px;
-      bottom: -23px;
+      bottom: -7px;
       padding: 10px;
     }
     &_m{
@@ -86,6 +84,7 @@
     &_s{
       height: 30px;
       padding: 0 10px;
+      line-height: 29px;
     }
   }
   &__infoleft{
@@ -153,9 +152,26 @@
     text-decoration: none;
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 30%;
     font-size: 1.8em;
     font-weight: 200;
+  }
+  &__inforightR{
+    float: right;
+    line-height: 120%;
+    margin: 3px 0;
+  }
+  &__righttitle{
+    font-size: 1.2em;
+    display: block;
+  }
+  &__rightclock{
+    font-size: 1.4em;
+    color: #D10074;
+    display: block;
+    text-align: right;
+    margin-right: 3px;
+    font-weight: 500;
   }
 }
