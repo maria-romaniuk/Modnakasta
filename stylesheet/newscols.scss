@@ -13,7 +13,7 @@
 
   }
   &__item{
-    height: 65px;
+    min-height: 60px;
   }
   &__link{
     text-decoration: none;
@@ -30,6 +30,6 @@
     color: #9b9b9e;
     font-weight: 200;
     letter-spacing: -.04em;
-    width: 76%;
+    width: 66%;
   }
 }

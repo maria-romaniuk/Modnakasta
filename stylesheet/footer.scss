@@ -10,9 +10,11 @@ footer{
   }
   &__logolink{
     display: block;
+    margin-bottom: 20px;
   }
   &__logocopiright{
-
+    color: #6b6c71;
+    letter-spacing: -.01em;
   }
   &__logocopirighttext{
     display: block;
@@ -23,5 +25,7 @@ footer{
   }
   &__nav{
     float: left;
+    width: 40%;
+    margin: 0 9em;
   }
 }

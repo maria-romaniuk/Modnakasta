@@ -1,8 +1,10 @@
 .news{
-
+  font-size: 1.4em;
 
   &__h1{
-
+    font-weight: 100;
+    letter-spacing: -.02em;
+    margin: 30px 0 13px 0;
   }
   &__list{
     margin: 0;
@@ -25,9 +27,19 @@
 
   }
   &__imgzonedate{
-
+    display: inline-block;
+    height: 23px;
+    padding: 5px 0;
   }
   &__info{
-
+    display: block;
+    text-decoration: none;
+  }
+  &__text{
+    display: block;
+    width: 70%;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    color: #8b8c8e;
   }
 }

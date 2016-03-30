@@ -40,6 +40,9 @@
       vertical-align: sub;
     }
     &_newpost{
+      background: url("../img/spritesheet.png") 40px 0;
+      width: 12px;
+      height: 12px;
 
     }
     &_wayforpay{
@@ -51,4 +54,10 @@
     &_shop{
 
     }
+  &_bell{
+    background: url("../img/bells9.png");
+    width: 27px;
+    height: 27px;
+    vertical-align: bottom;
+  }
 }

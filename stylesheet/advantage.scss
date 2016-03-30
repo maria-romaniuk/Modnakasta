@@ -1,12 +1,18 @@
 .advantage{
-
+  font-size: 1.2em;
+  font-weight: 200;
 
   &__h1{
-
+    margin: 34px 0 27px;
+    font-weight: 100;
   }
   &__block{
-    max-width: 32.3%;
+    max-width: 26%;
     display: inline-block;
+    margin-bottom: 34px;
+    &_centermargin{
+      margin: 0 9em;
+    }
   }
   &__bcg{
     display: block;
@@ -19,17 +25,17 @@
     &_quality{
       background: url("../img/icon_guarantees.svg")  left no-repeat;
       width: auto;
-      height: 36px;
+      height: 32px;
     }
     &_delivery{
       background: url("../img/icon_delivery.svg")  left no-repeat;
       width: auto;
-      height: 36px;
+      height: 30px;
     }
     &_payment{
       background: url("../img/icon_payments.svg")  left no-repeat;
       width: auto;
-      height: 36px;
+      height: 33px;
     }
     &_return{
       background: url("../img/icon_money_back.svg") left no-repeat;
@@ -39,14 +45,19 @@
     &_support{
       background: url("../img/icon_support.svg") left no-repeat;
       width: auto;
-      height: 36px;
+      height: 34px;
 
     }
   }
   &__title{
-
+    margin: 18px 0;
+    font-weight: 200;
+    font-size: 1.2em;
   }
   &__text{
-
+    color: #8b8b8b;
+    line-height: 150%;
+    word-spacing: .01em;
+    display: block;
   }
 }
