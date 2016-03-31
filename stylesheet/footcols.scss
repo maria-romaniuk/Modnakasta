@@ -19,6 +19,9 @@
   }
   &__item{
     padding: 5px 0;
+    &_nopaddingtop{
+      padding-top: 0;
+    }
   }
   &__link{
     color: #808183;

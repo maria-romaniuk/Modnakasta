@@ -40,19 +40,30 @@
       vertical-align: sub;
     }
     &_newpost{
-      background: url("../img/spritesheet.png") 40px 0;
-      width: 12px;
-      height: 12px;
+      background: url("../img/greysprites.png") 99px -1px;
+      width: 18px;
+      height: 18px;
+      vertical-align: bottom;
 
     }
     &_wayforpay{
-
+      background: url("../img/greysprites.png") 75px -3px;
+      width: 18px;
+      height: 18px;
+      vertical-align: bottom;
     }
     &_cupbrd{
-
+      background: url("../img/greysprites.png") 50px -1px;
+      width: 18px;
+      height: 18px;
+      vertical-align: bottom;
     }
     &_shop{
-
+      background: url("../img/greysprites.png") 22px -1px;
+      width: 21px;
+      height: 18px;
+      vertical-align: bottom;
+      margin-left: -3px;
     }
   &_bell{
     background: url("../img/bells9.png");
@@ -60,5 +71,40 @@
     height: 27px;
     vertical-align: bottom;
     margin: 0 4px;
+  }
+  &_facebook{
+    background: url("../img/spritesF.png") 0px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_youtube{
+    background: url("../img/spritesF.png") -35px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_instagram{
+    background: url("../img/spritesF.png") -77px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_vk{
+    background: url("../img/spritesF.png") -118px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_twitter{
+    background: url("../img/spritesF.png") -155px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_in{
+    background: url("../img/spritesF.png") -194px 2px;
+    width: 23px;
+    height: 23px;
+  }
+  &_google{
+    background: url("../img/spritesF.png") -234px 2px;
+    width: 23px;
+    height: 23px;
   }
 }
